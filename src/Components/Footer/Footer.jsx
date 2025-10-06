@@ -11,9 +11,9 @@ const Footer = () => {
   return (
     <div className="mt-16">
       <div className="bg-black text-white p-10">
-        <footer class=" grid grid-cols-5 footer sm:footer-horizontal ">
-          <aside className=" col-span-2">
-            <h1 className=" text-2xl font-bold">CS — Ticket System</h1>
+        <footer class="footer sm:footer-horizontal md:grid md:grid-cols-5 text-center md:pt-10">
+          <aside className=" col-span-2 text-center md:text-left">
+            <h1 className="font-bold text-2xl">CS — Ticket System</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

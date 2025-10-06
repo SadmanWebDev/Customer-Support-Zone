@@ -2,11 +2,11 @@ import React from "react";
 
 const Task = () => {
   return (
-    <div className="w-1/3">
+    <div className=" w-full md:w-1/3 ">
       <h1 className="font-semibold text-2xl mb-3">Task Status</h1>
       <div className="card shadow-lg p-3 bg-white">
         <h2 className="font-semibold text-lg mb-2">
-          hi my name is Sadman Surad{" "}
+          Payment Failed - Card Declined{" "}
         </h2>
         <button className="btn w-full bg-[#02A53B] text-white">Complete</button>
       </div>
