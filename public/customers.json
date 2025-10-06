@@ -1,0 +1,110 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issue - Invalid Credentials",
+    "status": "Open",
+    "priority": "High",
+    "customer_name": "John Smith",
+    "date": "2024-12-22",
+    "description": "Customer reports being unable to log in despite resetting the password."
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Failed - Card Declined",
+    "status": "Open",
+    "priority": "High",
+    "customer_name": "Sarah Johnson",
+    "date": "2024-01-16",
+    "description": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance."
+  },
+  {
+    "id": "#1003",
+    "title": "Refund Not Processed",
+    "status": "Pending",
+    "priority": "Medium",
+    "customer_name": "Michael Brown",
+    "date": "2024-03-12",
+    "description": "Customer requested a refund two weeks ago but has not received confirmation yet."
+  },
+  {
+    "id": "#1004",
+    "title": "Unable to Update Profile",
+    "status": "Open",
+    "priority": "Low",
+    "customer_name": "Emily Davis",
+    "date": "2024-05-04",
+    "description": "Profile edit form freezes when trying to upload a new profile picture."
+  },
+  {
+    "id": "#1005",
+    "title": "App Crashing on Startup",
+    "status": "Resolved",
+    "priority": "High",
+    "customer_name": "Robert Wilson",
+    "date": "2024-02-27",
+    "description": "Mobile app crashes every time user tries to open the dashboard."
+  },
+  {
+    "id": "#1006",
+    "title": "Order Not Delivered",
+    "status": "Open",
+    "priority": "High",
+    "customer_name": "Sophia Martinez",
+    "date": "2024-06-14",
+    "description": "Customer reports order marked as delivered but never received the package."
+  },
+  {
+    "id": "#1007",
+    "title": "Subscription Auto-Renewal Failed",
+    "status": "Pending",
+    "priority": "Medium",
+    "customer_name": "James Anderson",
+    "date": "2024-04-08",
+    "description": "Customer’s annual subscription did not auto-renew and access has been restricted."
+  },
+  {
+    "id": "#1008",
+    "title": "Incorrect Invoice Amount",
+    "status": "Open",
+    "priority": "Medium",
+    "customer_name": "Olivia Taylor",
+    "date": "2024-07-19",
+    "description": "Invoice shows an overcharge of $15 compared to the quoted price."
+  },
+  {
+    "id": "#1009",
+    "title": "Two-Factor Authentication Error",
+    "status": "Resolved",
+    "priority": "Low",
+    "customer_name": "William Harris",
+    "date": "2024-08-03",
+    "description": "User unable to receive 2FA codes via SMS for account verification."
+  },
+  {
+    "id": "#1010",
+    "title": "Coupon Code Not Working",
+    "status": "Open",
+    "priority": "Low",
+    "customer_name": "Isabella Clark",
+    "date": "2024-09-11",
+    "description": "Customer reports valid coupon code returns an ‘expired’ message."
+  },
+  {
+    "id": "#1011",
+    "title": "Delay in Account Activation",
+    "status": "Pending",
+    "priority": "Medium",
+    "customer_name": "Ethan Lewis",
+    "date": "2024-10-02",
+    "description": "Newly registered account has been pending activation for more than 24 hours."
+  },
+  {
+    "id": "#1012",
+    "title": "Multiple Charges for One Order",
+    "status": "Open",
+    "priority": "High",
+    "customer_name": "Ava Walker",
+    "date": "2024-10-05",
+    "description": "Customer was charged twice for a single order and requests immediate refund."
+  }
+]
