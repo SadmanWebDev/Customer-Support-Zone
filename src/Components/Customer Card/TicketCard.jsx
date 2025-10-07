@@ -2,10 +2,12 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays, faCircle } from "@fortawesome/free-solid-svg-icons";
 
-const CustomerCard = ({ customer }) => {
-  console.log(customer);
+const TicketCard = ({ customer, handleCard }) => {
   return (
-    <div className="card shadow-lg p-4 bg-white">
+    <div
+      onClick={() => handleCard(customer)}
+      className="card shadow-lg p-4 bg-white"
+    >
       <div className="flex justify-between">
         <h1 className="font-semibold text-lg">{customer.title}</h1>
         <span className="p-1 text-lg rounded-full bg-[#B9F8CF] text-[#02A53B]">
@@ -31,4 +33,4 @@ const CustomerCard = ({ customer }) => {
   );
 };
 
-export default CustomerCard;
+export default TicketCard;

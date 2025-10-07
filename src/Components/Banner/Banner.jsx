@@ -1,7 +1,7 @@
 import React from "react";
 import vector1 from "../../assets/vector1.png";
 
-const Banner = () => {
+const Banner = ({ inprogress }) => {
   return (
     <div className="max-w-11/12 mx-auto flex flex-col md:flex-row justify-between text-center text-white gap-5 m-16">
       {/* code from ai */}
@@ -19,7 +19,7 @@ const Banner = () => {
         />
         <div className="relative">
           <h3 className="text-2xl">In-Progress</h3>
-          <h1 className="font-bold text-6xl">0</h1>
+          <h1 className="font-bold text-6xl">{inprogress}</h1>
         </div>
       </div>
       {/* bg-gradient-to-r from-[#54CF68] to-[#00827A] */}
