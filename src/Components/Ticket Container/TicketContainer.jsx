@@ -1,8 +1,15 @@
 import React, { use } from "react";
-import TicketCard from "../Customer Card/TicketCard";
+import TicketCard from "../Ticket Card/TicketCard";
 import Task from "../Task/Task";
 
-const TicketCards = ({ customersPromise, handleCard, taskStatus }) => {
+const TicketContainer = ({
+  tasks,
+  customersPromise,
+  handleCard,
+  taskStatus,
+  handleResolved,
+  resolvedTask,
+}) => {
   const customersData = use(customersPromise);
 
   return (
@@ -10,7 +17,7 @@ const TicketCards = ({ customersPromise, handleCard, taskStatus }) => {
       <div>
         <h1 className="font-semibold text-2xl mb-3">Customer Tickets</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          {customersData.map((customer) => (
+          {tasks.map((customer) => (
             <TicketCard
               key={customer.id}
               handleCard={handleCard}
@@ -19,9 +26,13 @@ const TicketCards = ({ customersPromise, handleCard, taskStatus }) => {
           ))}
         </div>
       </div>
-      <Task customersData={customersData} taskStatus={taskStatus}></Task>
+      <Task
+        taskStatus={taskStatus}
+        handleResolved={handleResolved}
+        resolvedTask={resolvedTask}
+      ></Task>
     </div>
   );
 };
 
-export default TicketCards;
+export default TicketContainer;
