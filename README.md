@@ -1,16 +1,14 @@
-# React + Vite
+1. What is JSX, and why is it used?
+   Ans: JSX is stand for Javascript XML. It allows to write HTML like code in Javascript. It is used because JSX make the code easier to read, understand, and maintain.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. What is the difference between State and Props?
+   Ans: State represent the internal data of a component and Props are read only attributes used to pass data from parent to child components.
 
-Currently, two official plugins are available:
+3. What is the useState hook, and how does it work?
+   Ans: The useState hook allows functional components to have state variables. It returns two values, the current state and a function to update it. When the update function is called, react re-renders the component with the new state value.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4. How can you share state between components in React?
+   Ans: State can be shared by lifting the state up to the common parent component and passing it down as props.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. How is event handling done in React?
+   Ans: Event handling in react uses camelCase syntax and functions instead of strings.
